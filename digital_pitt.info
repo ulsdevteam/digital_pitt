@@ -1,0 +1,23 @@
+name 				= Digital Pitt Theme
+description = Testing theme based off the islandora_default theme.
+core 				= 7.x
+screenshot 	= screenshot.jpg
+base theme 	= islandora_default
+
+; STYLES
+stylesheets[all][] 		= styles/digital.css
+
+; REGIONS
+;regions[featured] 		= Featured
+
+regions[banner] 									= Banner
+regions[nav] 											= Navigation
+regions[search] 									= Search
+regions[content] 									= Content
+regions[sidebar] 									= Sidebar
+regions[islandora_object_sidebar] = Islandora Object Sidebar
+regions[footer-col1] 							= Footer column 1
+regions[footer-col2] 							= Footer column 2
+regions[help] 										= Help
+regions[page_top] 								= Page Top
+regions[page_botton] 							= Page Bottom
